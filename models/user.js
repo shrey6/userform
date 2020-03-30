@@ -40,8 +40,8 @@ userSchema.post('save',async function(){
         }
       });
       var mailOptions = {
-        from: 'shreyagarwal611@gmail.com',
-        to: 'shreyagarwal611@gmail.com',
+        from: 'youremailid',
+        to: 'recievers emailid',
         subject: 'Sending Email using Node.js',
         html: `<h1>Name:${user.name}</h1>
                 <h1>Email:${user.email}</h1>
