@@ -35,8 +35,8 @@ userSchema.post('save',async function(){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'shreyagarwal611@gmail.com',
-          pass: '91220142015hey'
+          user: 'youremailid',
+          pass: 'your pass'
         }
       });
       var mailOptions = {
