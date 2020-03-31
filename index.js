@@ -3,6 +3,7 @@ require('./db/mongoose.js')
 const User = require('./models/user.js')
 const userRouter = require('./routers/user')
 const app = express()
+// var fs = require('fs');
 const port = process.env.PORT || 3000
 app.use(express.json())
 app.use(userRouter)
